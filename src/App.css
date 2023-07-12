@@ -1,0 +1,479 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+  --color-dc3545: #dc3545;
+  --color-333: #333;
+  --color-b12b39: #b12b39;
+  --color-fff: #fff;
+  --color-ff1d33: #ff1d33;
+  --color-ed1b35: #ed1b35;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: inherit;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.card-title {
+  color: var(--color-ed1b35);
+}
+
+.product-card-body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.breadcrumb {
+  margin-bottom: 0;
+}
+
+/* Header Part Start Here */
+.header-top-strip {
+  font-size: 14px;
+  border-bottom: 1px solid var(--color-b12b39);
+  background-color: var(--color-dc3545);
+}
+
+.header-upper {
+  background-color: var(--color-fff);
+  border-bottom: 1px solid var(--color-b12b39);
+}
+
+.header-upper .input-group-text {
+  background-color: var(--color-dc3545);
+}
+
+.header-upper .header-upper-links .icon {
+  width: 30px;
+  height: 30px;
+}
+
+.header-upper .header-upper-links p {
+  font-size: 14px;
+}
+
+.header-upper .header-upper-links a {
+  color: #dc3545;
+}
+
+.header-bottom {
+  background-color: var(--color-dc3545);
+}
+
+.header-bottom .menu-links a,
+.header-bottom .dropdown button {
+  color: white;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: .3;
+  text-transform: uppercase;
+}
+
+.header-bottom .dropdown button .icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 4px;
+}
+
+.dropdown-toggle::after {
+  margin-left: -0.745em;
+  margin-top: 7px;
+}
+
+.header-bottom .dropdown button:focus {
+  box-shadow: none;
+}
+
+.header-bottom .dropdown-menu {
+  background-color: var(--color-dc3545);
+  transform: translate(0px, 46px) !important;
+}
+
+.header-bottom .dropdown-item {
+  padding: 10px;
+  margin-bottom: 1px;
+  border-bottom: 0.1px solid #fff;
+}
+
+.header-bottom .dropdown-item:hover {
+  background-color: var(--color-b12b39);
+  color: #fff !important;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.button {
+  background-color: var(--color-dc3545);
+  color: var(--color-fff);
+  font-size: 14px;
+  padding: 13px 13px;
+  border-radius: 25px;
+}
+
+.button:hover {
+  background-color: var(--color-ff1d33);
+  color: aliceblue;
+}
+
+.logo img {
+  max-width: 200px;
+  max-height: 44px;
+}
+
+/* Header Part End Here */
+
+
+/* Footer Part Start Here */
+footer {
+  background-image: url(https://viettelconstruction.com.vn/wp-content/themes/viettel/images/background-footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: var(--color-dc3545); */
+}
+
+footer:not(:first-child) {
+  border-top: 1px solid var(--color-b12b39);
+}
+
+.footer-content p {
+  margin-top: 20px;
+}
+
+.footer-content-right .image-footer-right img {
+  width: 306px;
+}
+
+.footer-content-right .footer-text,
+.footer-content-left .footer-text {
+  font-size: 14px;
+  margin: 30px 0;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.footer-content-right .image-footer-left img {
+  width: 200px;
+}
+
+
+/* Footer Part End Here */
+
+/* Home Page Start Here */
+.home-wrapper,
+.store-wrapper {
+  background-image: url(https://viettelconstruction.com.vn/wp-content/themes/viettel/images/news-bg.jpg);
+}
+
+.home-wrapper .home-wrapper-1 .main-banner {
+  background-color: var(--color-fff);
+  box-shadow: 20px 20px 50px grey;
+  padding: 0px 10px;
+  border-radius: 15px;
+}
+
+.main-banner-content {
+  top: 10%;
+  left: 5%;
+}
+
+.main-banner-content h4 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--color-dc3545);
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.main-banner-content h5 {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: var(--color-333);
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+  text-transform: none;
+}
+
+.main-banner-content p {
+  color: var(--color-ff1d33);
+}
+
+.small-banner {
+  width: 20rem;
+  height: 15rem;
+  position: relative;
+  overflow: hidden;
+  justify-content: space-around;
+  background-color: var(--color-fff);
+  box-shadow: 20px 20px 50px grey;
+  padding: 0px 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.small-banner-img {
+  width: 70%;
+  height: auto;
+  background-clip: content-box;
+  background-origin: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -5rem;
+  top: 0;
+}
+
+.small-banner-content {
+  width: 50%;
+}
+
+.home-wrapper .home-wrapper-2 {
+  background-color: #ffb1b985;
+}
+
+.home-wrapper .home-wrapper-2 .icon-wrapper-2 {
+  width: 30px;
+  height: auto;
+}
+
+.card-wrapper {
+  background-color: #fff;
+  box-shadow: 0 0 10px #0000001a;
+  padding: 15px;
+}
+
+.marquee-wrapper .marquee-inner-wrapper .img-logo-brand {
+  width: 100px;
+  height: auto;
+}
+
+/* Home Page End Here */
+
+/* Blog Part Start Here */
+
+.blog-card {
+  background-color: var(--color-fff);
+  box-shadow: 5px 5px 10px grey;
+
+
+}
+
+/* Blog Part End Here */
+
+/* Product Card Part Start Here */
+.product-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  max-width: 550px;
+  height: auto;
+}
+
+.btn-buy {
+  background-color: var(--color-dc3545);
+  color: var(--color-fff);
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.btn-buy:hover {
+  background-color: var(--color-ff1d33);
+  color: aliceblue;
+}
+
+.read-more-detail {
+  font-size: 12px;
+}
+
+/* Product Card Part End Here */
+
+/* Page Store Start Here    */
+
+.filter-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 15px;
+  border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.filter-title,
+.product-title {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--color-dc3545);
+  margin-bottom: 20px;
+}
+
+.filter-card ul {
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 30px;
+  color: #777777;
+  cursor: pointer;
+}
+
+.store-wrapper,
+.featured-products,
+.all-products {
+  padding-bottom: 16px;
+}
+
+
+/* Page Store End Here    */
+
+/* Page News Start Here  */
+
+.news-wrapper-1 {
+  background-image: url(https://viettelconstruction.com.vn/wp-content/themes/viettel/images/baocao-bg.jpg);
+}
+
+/* Page News End Here  */
+
+/* Contact Page Start Here */
+.contact-wrapper {
+  background-image: url(https://viettelconstruction.com.vn/wp-content/themes/viettel/images/baocao-bg.jpg);
+}
+
+.contact-inner-wrapper {
+  padding: 30px 20px;
+  border-radius: 15px;
+  background-color: #fff;
+  gap: 15px;
+}
+
+.contact-inner-wrapper>div {
+  width: 48%;
+}
+
+.contact-title {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: left;
+  color: var(--color-ed1b35);
+}
+
+.contact-inner-wrapper form .form-control {
+  background-color: #f5f5f7;
+  border-radius: 10px;
+  border-color: transparent;
+  padding: 10px;
+}
+
+.contact-inner-wrapper ul {
+  list-style: none;
+}
+
+.contact-inner-wrapper address,
+.contact-inner-wrapper a,
+.contact-inner-wrapper p {
+  color: #777777;
+}
+
+/* Contact Page End Here */
+
+
+/* Account Page Start Here */
+.account-wrapper-login{
+  background-image: url(https://viettelconstruction.com.vn/wp-content/themes/viettel/images/baocao-bg.jpg);
+}
+/* .login-card {
+  border: 0;
+  border-radius: 27.5px;
+  box-shadow: 0 10px 30px 0 rgba(172, 168, 168, 0.43);
+  overflow: hidden;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
+}
+
+.login-card-img {
+  border-radius: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.login-card .card-body {
+  padding: 85px 60px 60px;
+}
+
+.brand-wrapper {
+  margin-bottom: 19px;
+}
+
+.brand-wrapper .logo {
+  height: 37px;
+}
+
+.login-card-description {
+  font-size: 25px;
+  color: #000;
+  font-weight: normal;
+  margin-bottom: 23px;
+} */
+/* .cascading-right {
+  margin-right: -50px;
+}
+
+@media (max-width: 991.98px) {
+  .cascading-right {
+    margin-right: 0;
+  }
+} */
+/* Account Page End Here */
