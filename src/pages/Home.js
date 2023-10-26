@@ -39,7 +39,7 @@ const Home = () => {
           <div className='container-xxl'>
             <div className='row'>
               <div className='main-banner position-relative col-6'>
-                <img src='https://solarninhbinh.com/wp-content/uploads/2020/07/HiDM-Part-300x300.png'
+                <img src='https://nuno.vn/vnt_upload/product/2019/07/Pinmattroi.gif'
                   className='rounded float-end'></img>
                 <div className='main-banner-content position-absolute'>
                   <h4 className='text-uppercase'>Năng lượng mặt trời</h4>
@@ -149,7 +149,7 @@ const Home = () => {
                 <div className='marquee-inner-wrapper card-wrapper'>
                   <Marquee className='d-flex'>
                     <div className='mx-4 w-25'>
-                      <img className='img-logo-brand' src='https://www.carriervn.vn/wp-content/uploads/2020/07/Carrier.png' alt='brand' />
+                      <img className='img-logo-brand' src='https://images.carriercms.com/image/upload/v1629825291/common/logos-svg/carrier-logo.svg' alt='brand' />
                     </div>
                     <div className='mx-4 w-25'>
                       <img className='img-logo-brand' src='https://famy.vn/themes/new-famy/assets/img/logo-famy-slim.png' alt='brand' />

@@ -32,8 +32,8 @@ const Header = () => {
                             <div class="input-group mb-3">
                                 <input type="text"
                                     class="form-control py-2"
-                                    placeholder="Search product here ..."
-                                    aria-label="Search product here ..."
+                                    placeholder="Tìm kiếm sản phẩm ..."
+                                    aria-label="Tìm kiếm sản phẩm ..."
                                     aria-describedby="basic-addon2" />
                                 <span class="input-group-text p-3 text-white"
                                     id="basic-addon2"><BsSearch className="fs-6" />
@@ -45,19 +45,19 @@ const Header = () => {
                                 <div className='btn'>
                                     <Link to="/login" className="d-flex align-items-center gap-10 px-2">
                                         <BsPersonCircle className="icon" />
-                                        <p className="mb-0">Log in <br /> My Account</p>
+                                        <p className="mb-0">Đăng nhập<br /> Tài khoản</p>
                                     </Link>
                                 </div>
                                 <div className='btn'>
-                                    <Link className="d-flex align-items-center gap-10 px-2">
+                                    <Link  to="/cart" className="d-flex align-items-center gap-10 px-2">
                                         <div className='position-relative'>
                                             <BsCart className="icon " />
-                                            <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+                                            <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">1</span>
                                         </div>
 
                                         <div className="d-flex flex-column ">
 
-                                            <p className="mb-0">Cart</p>
+                                            <p className="mb-0">Giỏ hàng</p>
                                         </div>
                                     </Link>
                                 </div>
@@ -91,7 +91,7 @@ const Header = () => {
                                 <div className='menu-links'>
                                     <div className='d-flex align-items-center gap-15'>
                                         <NavLink to="/">Trang chủ</NavLink>
-                                        <NavLink to="/store">Store</NavLink>
+                                        <NavLink to="/product">Sản phẩm</NavLink>
                                         <NavLink to="/news">Tin tức</NavLink>
                                         <NavLink to="/contact">Liên hệ</NavLink>
 

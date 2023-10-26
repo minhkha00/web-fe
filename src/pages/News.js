@@ -8,18 +8,23 @@ const News = () => {
         <div className='news-wrapper-1'>
             <Meta title='Tin tức' />
             <div className='container-xxl'>
-            <BreadCrumb title='News' />
+                <BreadCrumb title='News' />
                 <h2 class="text-uppercase text-center text-danger">Tin tức</h2>
-                <div className='row'>
-                    <div className='col-6'>
-                        <BlogCardHorizontal />
-                        <BlogCardHorizontal />
-                        <BlogCardHorizontal />
-                    </div>
-                    <div className='col-6'>
-                        <BlogCardHorizontal />
-                        <BlogCardHorizontal />
-                        <BlogCardHorizontal />
+                <div className='col'>
+                    <h3 className='contact-title mb-4'>Tin tức liên quan</h3>
+                    <div className='row row-cols-2'>
+                        <div className='col'>
+                            <BlogCardHorizontal />
+                        </div>
+                        <div className='col'>
+                            <BlogCardHorizontal />
+                        </div>
+                        <div className='col'>
+                            <BlogCardHorizontal />
+                        </div>
+                        <div className='col'>
+                            <BlogCardHorizontal />
+                        </div>
                     </div>
                 </div>
                 <div className='row'>

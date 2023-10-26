@@ -411,69 +411,123 @@ footer:not(:first-child) {
 
 
 /* Account Page Start Here */
-.account-wrapper-login{
+.account-wrapper-login {
   background-image: url(https://viettelconstruction.com.vn/wp-content/themes/viettel/images/baocao-bg.jpg);
 }
-/* .login-card {
-  border: 0;
-  border-radius: 27.5px;
-  box-shadow: 0 10px 30px 0 rgba(172, 168, 168, 0.43);
-  overflow: hidden;
-}
 
-.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-}
-
-.card {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem;
-}
-
-.login-card-img {
-  border-radius: 0;
-  position: absolute;
+.image-login {
   width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
+  height: 450px;
   object-fit: cover;
 }
 
-.login-card .card-body {
-  padding: 85px 60px 60px;
-}
-
-.brand-wrapper {
-  margin-bottom: 19px;
-}
-
-.brand-wrapper .logo {
-  height: 37px;
-}
-
-.login-card-description {
-  font-size: 25px;
-  color: #000;
-  font-weight: normal;
-  margin-bottom: 23px;
-} */
-/* .cascading-right {
-  margin-right: -50px;
-}
-
-@media (max-width: 991.98px) {
-  .cascading-right {
-    margin-right: 0;
-  }
-} */
 /* Account Page End Here */
+
+/* Single Blog Page Start Here */
+
+.image-blog{
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+.blog-wrapper-1 p, .blog-wrapper-1 h5{
+  text-align: justify;
+}
+/* Single Blog Page End Here */
+
+/* Single Product Page Start Here */
+
+.main-product-wrapper {
+  background-image: url(https://viettelconstruction.com.vn/wp-content/themes/viettel/images/baocao-bg.jpg);
+
+}
+.review-inner-wrapper, .description-inner-wrapper{
+  background-color: #fff;
+  padding: 30px;
+}
+.review-head {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  
+}
+.text-description{
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.review-head h5{
+ font-size: 18px;
+ color: #1c1c1b;
+}
+.review-head p, .review-head a{
+  font-size: 14px;
+  color: #777777;
+}
+.review-form{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.review-form h5{
+  font-size: 16px;
+  color: #777777;
+}
+
+.review:not(:last-child){
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.review p{
+  font-size: 14px;
+  color: #777777;
+}
+.product-heading{
+  font-size: 14px;
+  color: #1c1c1b;
+  margin-bottom: 0px;
+
+}
+
+.product-data {
+  font-size: 13px;
+  columns: #777777;
+  margin-bottom: 0px;
+}
+/* Single Product Page End Here */
+
+/* Cart Page */
+.cart-header,
+.cart-data {
+  border-bottom: 1px solid #eaeaea;
+}
+.cart-header h4 {
+  font-size: 13px;
+  color: var(--color-777777);
+}
+.cart-col-1 {
+  width: 40%;
+}
+.cart-col-1 p {
+  color: var(--color-777777);
+  font-size: 14px;
+}
+.cart-col-2 {
+  width: 10%;
+}
+.cart-col-3 {
+  width: 15%;
+}
+.cart-col-4 {
+  width: 15%;
+}
+.cart-data h5.price {
+  font-size: 14px;
+  color: var(--color-1c1c1b);
+}
+/* Cart Page Ends here */
+/* Shippping Page */
+
+.total {
+  font-size: 14px;
+  color: var(--color-1c1c1b);
+}
+.total-price {
+  font-size: 16px;
+  color: var(--color-777777);
+}
+/* Shipping page ends here */

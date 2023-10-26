@@ -1,53 +1,43 @@
 import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta'
-import { AiOutlineHome, AiOutlineMail } from 'react-icons/ai'
-import { BiPhoneCall } from 'react-icons/bi'
-import { BsInfoCircle } from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
     return (
         <div>
             <Meta title='Tài khoản' />
             <div className='account-wrapper-login'>
-                <BreadCrumb title='Tài khoản' />
-                <div className='container-xxl'>
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="https://www.bootstrapdash.com/demo/login-template-free-2/assets/images/login.jpg" class="img-fluid rounded-start" alt="..." />
+                <BreadCrumb title='Đăng nhập' />
+                <div class="container">
+                    <div class="row justify-content-center align-items-center py-4">
+                        <div class="col-lg-6">
+                            <img src="https://viettelconstruction.com.vn/wp-content/uploads.bak/2021/07/Viettel-Construction-Giai-phap-tich-hop.jpg" class="image-login img-fluid" />
                         </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                {/* <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
-                                <div className='contact-inner-wrapper d-flex justify-content-between'>
-                                    <div>
-                                        <h3 className='contact-title mb-4'>Thông tin liên hệ</h3>
-                                        <form action='' className='d-flex flex-column gap-15'>
-                                            <div>
-                                                <input title='email' className='form-control' placeholder='Email'>
-                                                </input>
-                                            </div>
-                                            <div>
-                                                <input title='password' className='form-control' placeholder='*******'>
-                                                </input>
-                                            </div>
-                                                                                        <div>
-                                                <button className='button border-0'>Đăng nhập</button>
-                                            </div>
-                                        </form>
-                                    </div>
+                        <div class="col-lg-6" >
+                            <h3 className='contact-title mb-4'>Đăng nhập</h3>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="username" class="form-label">Tài khoản</label>
+                                    <input type="text" class="form-control" id="username" name="username" required />
                                 </div>
-                            </div>
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">Mật khẩu</label>
+                                    <input type="password" class="form-control" id="password" name="password" required />
+                                </div>
+                                <div>
+                                    <Link to="/forgot-password">Quên mật khẩu</Link>
+                                    <Link className='px-4' to="/signup">Đăng ký ngay</Link>
+                                </div>
+                                <button type="submit" class="btn btn-danger">Đăng nhập</button>
+
+                            </form>
                         </div>
-
                     </div>
-
                 </div>
             </div>
-</div>
-            )
+        </div>
+    )
 }
 
-            export default Login
+export default Login
